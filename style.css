@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70vh;
+    background-color: rgb(244, 81, 30);
+}
+
+.c {
+    font-size: 65px;
+}
+
+.input::placeholder {
+    padding-left: 20px;
+}
+
+.searchbar {
+    width: 55%;
+}
+
+.about {
+    height: max-content;
+}
+
+.about p {
+    color: gray;
+}
+
+.values {
+    height: max-content;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.servics {
+    height: max-content;
+}
+
+.servics p {
+    color: gray;
+}
+
+.fs {
+    color: rgb(244, 81, 30);
+    font-size: 40px;
+}
+
+.portfolio {
+    height: max-content;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.p {
+    height: max-content;
+    background-color: white;
+}
+
+.p img {
+    width: 100%;
+}
+
+.s {
+    border: 1px solid;
+    height: 300px;
+
+}
+
+.slide {
+    height: 50vh;
+}
+
+.text {
+    margin-top: 150px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: tomato;
+}
+
+.prizing {
+    height: max-content;
+    background-color: white;
+}
+
+.red {
+    background-color: rgb(244, 81, 30);
+    color: white;
+}
+
+.signup {
+    background-color: rgb(244, 81, 30);
+    border: none;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact {
+    background-color: hsl(0, 0%, 96%);
+    height: max-content;
+    padding-bottom: 30px;
+}
+
+.inp {
+    height: 40px;
+}
+
+.inp::placeholder {
+    padding-left: 10px;
+}
+
+.con,
+.cont {
+    height: max-content;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.map {
+    background-color: white;
+    height: 100%;
+}
+
+.footer {
+    height: 150px;
+}
+
+.fa-angle-up {
+    color: rgb(244, 81, 30);
+}
+
+
+
+
+@media (max-width: 770px) {
+    .c {
+        font-size: 45px;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+}
